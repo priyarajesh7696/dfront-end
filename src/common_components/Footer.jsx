@@ -17,7 +17,7 @@ function Footer() {
             <div className="footer__section">
               <Image
                 style={{ maxHeight: "50px" }}
-                src="../src/assets/logo/logo.jpg"
+                src="/assets/logo/logo.jpg"
                 rounded
               />
 

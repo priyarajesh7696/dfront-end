@@ -52,7 +52,7 @@ function Dashboard() {
          
         </div>
         </Card.Body>
-        <Card.Img variant="top" src={"../src/assets/trainings/mission.jpg"} />
+        <Card.Img variant="top" src={"/assets/trainings/mission.jpg"} />
 
       </Card>
       
@@ -68,7 +68,7 @@ function Dashboard() {
          <div className='bod' >
           <Row sm={1} md={1} xl={3}>
             <Col> <Card style={{ width: '18rem' }} className='border-3'>
-      <Card.Img variant="top" src="./src/assets/cod/MR.S.SIVAKUMAR.jpg" style={{backgroundImage:"url('./src/assets/gallery/b1.jpg')"}} />
+      <Card.Img variant="top" src="/assets/cod/MR.S.SIVAKUMAR.jpg" style={{backgroundImage:"url('./src/assets/gallery/b1.jpg')"}} />
       <Card.Body>
         <Card.Title>MR.S.SIVAKUMAR</Card.Title>
         <Card.Text>M/s. SRM Connects</Card.Text>
@@ -76,7 +76,7 @@ function Dashboard() {
       </Card.Body>
     </Card></Col>
             <Col><Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="./src/assets/cod/B.KUMARESON.jpg" />
+      <Card.Img variant="top" src="/assets/cod/B.KUMARESON.jpg" />
       <Card.Body>
         <Card.Title>MR.B.KUMARESON</Card.Title>
         <Card.Text>M/s.Ganesh Electricals</Card.Text>
@@ -84,7 +84,7 @@ function Dashboard() {
       </Card.Body>
     </Card></Col>
             <Col><Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="./src/assets/cod/Mr.A.Shanmuga Velayuthan.jpg" />
+      <Card.Img variant="top" src="/assets/cod/Mr.A.Shanmuga Velayuthan.jpg" />
       <Card.Body>
         <Card.Title>Mr.A.Shanmuga Velayuthan</Card.Title>
         <Card.Text>M/s. IPL Products</Card.Text>

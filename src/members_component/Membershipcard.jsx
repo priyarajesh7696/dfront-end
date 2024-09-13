@@ -5,7 +5,7 @@ function Membershipcard() {
   return (
         <div className="membership-card">
           <div className="card-header">
-            <img src="../src/assets/logo/logo.jpg" alt="Logo" className="logo" />
+            <img src="/assets/logo/logo.jpg" alt="Logo" className="logo" />
             <h2>DIVINE BHARAT CHAMBER OF COMMERCE</h2>
           </div>
           <div className="card-body text-center">

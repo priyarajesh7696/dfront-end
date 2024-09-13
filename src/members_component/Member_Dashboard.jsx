@@ -75,7 +75,7 @@ useEffect(()=>{
                 {/* <Row>
                   <Col> */}
                   <div>
-                  <Image className='text-center rounded-circle'  style={{ maxHeight: '200px' }} src={`../src/assets/members/${e.name}.jpg`} rounded />
+                  <Image className='text-center rounded-circle'  style={{ maxHeight: '200px' }} src={`/assets/members/${e.name}.jpg`} rounded />
                   </div>
               <div className='d-flex flex-column '>
               <div className='d-flex gap-3'>

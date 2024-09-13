@@ -8,21 +8,21 @@ function Events() {
    <div class="events mt-3 ">
     <h2>B2B Mobile Launch</h2>
    
-    <img class="img-fluid" src={"../src/assets/trainings/b2b.jpg"} alt="New York" width="1100" height="500"/> 
+    <img class="img-fluid" src={"/assets/trainings/b2b.jpg"} alt="New York" width="1100" height="500"/> 
   </div>
   </Col>
   <Col>
   <div class="events mt-3 ">
   <h2>Member Training</h2>
   
-  <img class="img-fluid" src={"../src/assets/trainings/training.jpg"} alt="New York" width="1100" height="500"/> 
+  <img class="img-fluid" src={"/assets/trainings/training.jpg"} alt="New York" width="1100" height="500"/> 
 </div>
 </Col>
 <Col>
 <div class="events mt-3 ">
   <h2>Foundation day </h2>
   
-  <img class="img-fluid" src={"../src/assets/trainings/foundation.jpg"} alt="New York" width="1100" height="500"/> 
+  <img class="img-fluid" src={"/assets/trainings/foundation.jpg"} alt="New York" width="1100" height="500"/> 
 </div>
 </Col>
 </Row>

@@ -9,7 +9,7 @@ function Trainings() {
       <Container fluid className='link-dark'>
 <h1>We provide a wide range of business services
 </h1>
-<Image className='mt-2 p-2'style={{ maxHeight: '300px' }}  src={"../src/assets/logo/c1.jpg"} rounded />
+<Image className='mt-2 p-2'style={{ maxHeight: '300px' }}  src={"/assets/logo/c1.jpg"} rounded />
       </Container>
       </Col>
       <Col>

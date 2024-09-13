@@ -63,7 +63,7 @@ console.log(formProps)
 
     <div className="login d-flex p-2 link-light" >
        <Container className="login_image">
-    <Image className='text-center mt-2'style={{ maxHeight: '600px',width:"500px" }}  src={"../src/assets/logo/c1.jpg"} rounded />
+    <Image className='text-center mt-2'style={{ maxHeight: '600px',width:"500px" }}  src={"/assets/logo/c1.jpg"} rounded />
     </Container>
 
     <Container fluid className='d-flex flex-column  justify-content-center align-items-center shadow-lg mt-2 p-3'>
