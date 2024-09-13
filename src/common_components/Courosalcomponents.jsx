@@ -10,7 +10,7 @@ function Courosalcomponents() {
             <Carousel.Item>
                 <img
                     className="w-100  "
-                    src="../src/assets/trainings/b2b.png"
+                    src="/assets/trainings/b2b.png"
                     alt="First slide"
                 />
                 
@@ -23,7 +23,7 @@ function Courosalcomponents() {
             <Carousel.Item className=''>
                 <img
                     className="d-block w-100"
-                    src="../src/assets/trainings/trainings.jpg"
+                    src="/assets/trainings/trainings.jpg"
                     alt="Second slide"
                 />
                 <Carousel.Caption>
@@ -34,7 +34,7 @@ function Courosalcomponents() {
             <Carousel.Item className=''>
                 <img
                     className="d-block w-100"
-                    src="../src/assets/trainings/foundation.jpg"
+                    src="/assets/trainings/foundation.jpg"
                     alt="Third slide"
                 />
                 <Carousel.Caption>
