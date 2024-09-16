@@ -24,6 +24,7 @@ import Social from '../common_components/Social';
 
 function Admin_Header() {
   let logout = Logout();
+  let username=sessionStorage.getItem("name")
   const [messages, setMessages] = useState([]);
   const [inputText, setInputText] = useState("");
   const role = sessionStorage.getItem("role");
@@ -163,7 +164,7 @@ function Admin_Header() {
           {/* <span className='mx-2 link-danger'>Logout</span> */}
         </Link>
       </Navbar>
-        {/* <Navbar className=" mytopnav_mobile bg-body-tertiary">
+        <Navbar className=" mytopnav_mobile bg-body-tertiary">
           
             <Navbar.Brand href="">
               <Image
@@ -226,7 +227,11 @@ function Admin_Header() {
               </Nav>
             </Offcanvas.Body>
           </Offcanvas>
-        </Navbar> */}
+        </Navbar>
+         <div className='fixed-bottom'>
+            <Chatbox username={username} />
+            
+            </div>
        
     </Container>
   );

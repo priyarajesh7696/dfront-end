@@ -14,10 +14,11 @@ console.log(userRole)
       headerComponent = <UserHeader />;
       break;
     default:
-      headerComponent = <Header />;
+      headerComponent = <Header/>;
       break;
+     
   }
-
+  console.log(headerComponent)
   return <div>{headerComponent}</div>;
 };
 

@@ -1,19 +1,23 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
 
 function Socialmedia() {
   return (
-    <div className='social p-2 text-center'>
-    <h1 className='link-success'>Welcome to DBCC Family</h1>
+    <Container className='social p-2 text-center'>
+    <h1 className='link-success mb-1'>Welcome to DBCC Family</h1>
+    <div>
     <iframe
-        width="1200"
+        width="800"
         height="400"
        src="https://www.youtube.com/embed/jhtnYjRCIpY?autoplay=1&mute=1"
          title="YouTube video player"
-        frameborder="0"
+        frameborder="4"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
+        
       ></iframe>
-  </div>
+      </div>
+  </Container>
   )
 }
 

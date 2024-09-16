@@ -164,7 +164,7 @@ function Member_Header() {
         </Link>
       </Navbar>
      
-        {/* <Navbar className=" mytopnav_mobile bg-body-tertiary">
+        <Navbar className=" mytopnav_mobile bg-body-tertiary">
          
             <Navbar.Brand href="">
               <Image
@@ -229,7 +229,7 @@ function Member_Header() {
               </Nav>
             </Offcanvas.Body>
           </Offcanvas>
-        </Navbar> */}
+        </Navbar>
       
       <div className='fixed-bottom'>
             <Chatbox username={username} />

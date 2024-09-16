@@ -59,16 +59,7 @@ function Headers() {
   useEffect(() => {
     fetchMessages();
   }, []);
-  // const renderTooltip = (props) => (
-  //   <Tooltip id="button-tooltip" {...props}>
-  //     notification
-  //     <div className="message">
-  //       {limitedMessage.map((msg, index) => (
-  //         <Message key={index} msg={msg} />
-  //       ))}
-  //     </div>
-  //   </Tooltip>
-  // );
+  
 
   return (
     <Container fluid>
@@ -106,22 +97,10 @@ function Headers() {
             <Nav.Link href="/contacts">Contacts</Nav.Link>
           </Nav>
         </Navbar.Collapse>
-        {role == "admin" || role == "user" ? (
-        <Button onClick={toggleShowA} className="mb-2">
-          <strong>
-            <i class="fa-solid fa-bell"></i>
-          </strong>
-        </Button>):""}
+      
+       
 
-        {role == "admin" || role == "user" ? (
-          <Link to="/" className="nav p-3" href="index.html">
-            <i
-              onClick={logout}
-              class="fa-solid fa-arrow-right-from-bracket"
-            ></i>
-            {/* <span className='mx-2 link-danger'>Logout</span> */}
-          </Link>
-        ) : (
+        
           <Nav.Item className="user mx-5 g-3 float-end link-dark ">
             <Button variant="outline-primary">
               {" "}
@@ -133,11 +112,11 @@ function Headers() {
               <Link to="/register"> SignUp</Link>
             </Button>
           </Nav.Item>
-        )}
+        
       </Navbar>
       </div>
       <div>
-        <Navbar className=" mytopnav_mobile bg-body-tertiary">
+        <Navbar className=" mytopnav_mobile  bg-body-tertiary">
           <Container>
             <Navbar.Brand href="">
               <Image
@@ -192,11 +171,8 @@ function Headers() {
 
                 <Nav.Link href="/socialmedias">SocialMedias</Nav.Link>
                 <Nav.Link href="/contacts">Contacts</Nav.Link>
-                <Link to="/" className="nav p-3" href="index.html">
-            <i
-              onClick={logout}
-              class="fa-solid fa-arrow-right-from-bracket"
-            ></i>
+                <Link to="/login" className="nav p-3" href="index.html">log
+           
             {/* <span className='mx-2 link-danger'>Logout</span> */}
           </Link>
               </Nav>
@@ -238,28 +214,3 @@ function Headers() {
   );
 }
 export default Headers;
-{
-  /* <Navbar.Collapse id="navbarScroll">
-              <Nav
-                className="me-auto my-2 my-lg-0"
-                style={{ maxHeight: '100px' }}
-                navbarScroll
-              >
-            <Nav.Link href="#action2"><i class="fa-brands fa-facebook"></i></Nav.Link>
-            <Nav.Link href="#action2"> <i class="fa-brands fa-twitter"></i></Nav.Link>
-            <Nav.Link href="#action2"> <i class="fa-brands fa-instagram"></i></Nav.Link>
-            <Nav.Link href="#action2"> <i class="fa-brands fa-linkedin"></i></Nav.Link>
-            <Nav.Link href="#action2">  <i class="fa-solid fa-envelope"></i></Nav.Link>
-          
-            </Nav>
-            </Navbar.Collapse> */
-}
-{
-  /* <OverlayTrigger
-      placement="right"
-      delay={{ show: 250, hide: 400 }}
-      overlay={renderTooltip}
-    >
-      <Button variant="success" > <i class="fa-solid fa-bell"></i></Button>
-      </OverlayTrigger> */
-}

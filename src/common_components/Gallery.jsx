@@ -11,39 +11,39 @@ function Gallery() {
     
       <Col >
       <Card>
-        <Card.Img variant="top" src={"/assets/gallery/1.jpg"} />
+        <Card.Img variant="top" src={"/assets/gallery/1.JPG"} />
       </Card>
     </Col>
      
         
         <Col >
           <Card>
-            <Card.Img variant="top" src={"/assets/gallery/3.jpg"} />
+            <Card.Img variant="top" src={"/assets/gallery/3.JPG"} />
             
           </Card>
         </Col>
         <Col >
           <Card>
-            <Card.Img variant="top" src={"/assets/gallery/4.jpg"} />
+            <Card.Img variant="top" src={"/assets/gallery/4.JPG"} />
             
           </Card>
         </Col>
         <Col >
           <Card>
-            <Card.Img variant="top" src={"/assets/gallery/5.jpg"} />
+            <Card.Img variant="top" src={"/assets/gallery/5.JPG"} />
             
           </Card>
           </Col>
           <Col >
           <Card>
-            <Card.Img variant="top" src={"/assets/gallery/6.jpg"} />
+            <Card.Img variant="top" src={"/assets/gallery/6.JPG"} />
             
           </Card>
          
           </Col>
           <Col >
           <Card>
-            <Card.Img variant="top" src={"/assets/gallery/7.jpg"} />
+            <Card.Img variant="top" src={"/assets/gallery/7.JPG"} />
             
           </Card>
         </Col>

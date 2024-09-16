@@ -63,10 +63,12 @@ function Dashboard() {
         <p>Total Members:{100}</p>
       </div>
       <hr></hr>
-      <h1>Our Board  Directers</h1>
-       
-         <div className='bod' >
-          <Row sm={1} md={1} xl={3}>
+      <div className='bod text-center d-flex flex-row justify-content-center align-content-center'>
+     
+      <h1 className='text-center'>Our Board  Directers</h1>
+         
+          <Row sm={1} md={1} xl={3} className='d-flex justify-content-center align-content-center'>
+          
             <Col> <Card style={{ width: '18rem' }} className='border-3'>
       <Card.Img variant="top" src="/assets/cod/MR.S.SIVAKUMAR.jpg" style={{backgroundImage:"url('./src/assets/gallery/b1.jpg')"}} />
       <Card.Body>

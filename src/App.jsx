@@ -45,7 +45,7 @@ function App() {
         <Route path= '/reset-password' element={<ResetPassword />} />
         <Route path='/verify-otp' element={<VerifyOtp />} />
         <Route path='/logout' element={<Logout />} />
- <Route path='/add_member' element={<Add_Member/>}/>
+ {/* <Route path='/add_member' element={<Add_Member/>}/> */}
  <Route path='/member' element={<Member_Dashboard/>}/>
  <Route path='/gallery' element={<Gallery/>}/>
  <Route path='/trainings' element={<Trainings/>}/>

@@ -16,8 +16,8 @@ import Member_Approval from '../admin_components/Member_Approval';
 import Admin_Header from '../admin_components/Admin_Header'
 function AdminRoutes() {
   return <>
- <Admin_Header/>
-    <Routes>
+  <Admin_Header/>
+    <Routes>   
     <Route path="home" element={<Admin/>}/>
     <Route path="add_member" element={<Add_Member/>}/>
     <Route path="edit_member" element={<Edit_Member/>}/>
