@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const AxiosService = axios.create({
-    baseURL:"http://192.168.1.3:8000",
+    baseURL:"https://dback-end.vercel.app/",
     headers:{
         "Content-Type":"application/json",
     }
