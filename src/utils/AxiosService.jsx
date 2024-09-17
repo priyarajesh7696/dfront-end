@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const AxiosService = axios.create({
-    baseURL:"https://dback-end.vercel.app/",
+    baseURL:"https://dback-end-1.onrender.com/",
     headers:{
         "Content-Type":"application/json",
     }
